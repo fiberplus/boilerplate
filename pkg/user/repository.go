@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 )
 
-// Repository
+// Repository ..
 type Repository interface {
 	Find(id int) (models.User, error)
 }
